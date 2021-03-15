@@ -1,0 +1,382 @@
+*{
+	 box-sizing:border-box;
+}
+body{
+	 color: white;
+	 position: relative
+}
+html, body {
+     overflow-x: hidden;
+}
+.row:after {
+	 visibility: hidden;
+	 display: block;
+	 font-size: 0;
+	 content: " ";
+	 clear: both;
+	 height: 0;
+}
+.row{
+	 display: inline-block;
+}
+html .row{
+	 height: 1%;
+}
+.row{
+	 display: block;
+}
+.content{
+	 margin-top: 30px;
+	 width: 65%;
+	 float: left;
+}
+.inner-content{
+	 min-height: 1080px;
+}
+.sidebar{
+	 width: 35%;	 
+	 float: left;
+	 margin-top: 30px;
+	 padding-right: 0px;
+}
+.inner-sidebar{
+     background: #3b3b93;
+     min-height: 1080px
+}
+.inner-sidebar svg{
+	 margin-left: 102px;
+	 margin-top: 50px;
+}
+.inner-sidebar h4{
+	 position: absolute;
+	 float: right;
+	 margin-top: -30px;
+	 margin-left: 140px;
+}
+.filter a{
+     float: right;
+     text-decoration: none;
+     color: #fff;
+     margin-right: 140px;
+      margin-top: 100px;
+}
+.filter a:hover{
+     opacity: 0.6;  
+}
+.filter h3{
+     position: absolute;
+     margin-left: 102px;
+	 float: right;
+	 margin-top: 90px;
+}
+.filter p{
+     position: absolute;
+     margin-left: 102px;
+	 float: right;
+	 margin-top: 180px;
+}
+.radio-button{
+	 position: absolute;
+	 display: grid;
+     grid-auto-flow: column;
+     grid-template-rows: repeat(3, 1fr);
+     margin-top: 220px;
+     margin-left: 102px;
+     padding-right: -20px;
+}
+.radio-button label {
+     display: block;
+     padding-right: 35px;
+     padding-bottom: 10px;
+}
+hr{
+	 position: absolute;
+	 border: 1px solid ;
+     background-color: #45459d; 
+     margin-left: 102px;
+     margin-top: 370px;
+     width: 340px;
+}
+.floor-button button{
+	 margin-top: 240px;    
+     margin-right: 7px;
+     margin-left: 5px;
+     background-color: #5051ae; 
+     border: 1px solid #5051ae; 
+     color: white; 
+     padding: 5px 20px 5px 20px;
+     cursor: pointer; 
+     float: left; 
+}
+.floor-button:after {
+     content: "";
+     clear: both;
+     display: table;
+}
+.floor-button button:hover {
+     background-color: #ffad61;
+}
+.floor-button{
+	 float: right;
+	 margin-top: 70px;
+	 margin-right: 102px;
+}
+button{
+	 border-radius: 99em;
+}
+.number-floor p{
+	 position: absolute;
+	 margin-top: 390px;
+}
+.hr2{
+	 position: absolute;
+	 border: 1px solid ;
+     background-color: #45459d; 
+     margin-left: 102px;
+     margin-top: 505px;
+     width: 340px;
+}
+.price-meter p{
+     position: absolute;
+	 margin-top: 530px;
+	 float: left;
+}
+.footage-button{
+	 float: right;
+	 margin-top: 25px;
+	 margin-right: 102px;
+}
+.footage-button button{
+     float: left;
+	 margin-left: 5px;
+	 margin-right: 7px;
+	 padding: 5px 22px 5px 22px;
+	 background-color: #5051ae; 
+     border: 1px solid #5051ae;
+     color: white; 
+     margin-top: 85px; 
+}
+.footage-button button:hover {
+     background-color: #ffad61;
+}
+.apartment-price p{
+	 position: absolute;
+	 margin-top: 660px;
+	 float: left;
+}
+.apart-button{
+	 float: right;
+	 margin-top: 25px;
+	 margin-right: 102px;
+}
+.apart-button button{
+	 margin-top: 70px;    
+     margin-right: 7px;
+     margin-left: 5px;
+     background-color: #5051ae; 
+     border: 1px solid #5051ae; 
+     color: white; 
+     padding: 5px 15px 5px 15px;
+     cursor: pointer; 
+     float: left; 
+}
+.apart-button button:hover {
+     background-color: #ffad61;
+}
+.hr3{
+	 position: absolute;
+	 border: 1px solid ;
+     background-color: #45459d; 
+     margin-left: 102px;
+     margin-top: 780px;
+     width: 340px;
+}
+.rating p{
+	 position: absolute;
+	 margin-top: 800px;
+	 float: left;
+}
+.rating-star{
+     float: right;
+	 margin-top: 25px;
+	 margin-right: 142px;
+}
+.rating-star button{
+	 margin-top: 75px;    
+     margin-right: 7px;
+     margin-left: 5px;
+     background-color: #5051ae; 
+     border: 1px solid #5051ae; 
+     color: white; 
+     padding: 5px 15px 5px 15px;
+     cursor: pointer; 
+     float: left; 
+}
+.rating-star button:hover {
+     background-color: #ffad61;
+}
+.last-rating-star{
+	 float: right;
+	 margin-top: 25px;
+	 margin-right: 340px;
+}
+.last-rating-star button{
+	margin-top: -5px;    
+     margin-right: 7px;
+     margin-left: 5px;
+     background-color: #5051ae; 
+     border: 1px solid #5051ae; 
+     color: white; 
+     padding: 5px 15px 5px 15px;
+     cursor: pointer; 
+     float: left;
+}
+.last-rating-star button:hover {
+     background-color: #ffad61;
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 375px){
+
+
+
+
+
+    .inner-sidebar {
+         width: 375px;
+         display: flex;
+         justify-content: space-around;
+         padding-right: 180px; 
+    }
+    .inner-sidebar h4 {
+         width: 375px;
+         display: flex;
+         justify-content: space-around;
+         padding-right: 80px;  
+         margin-top: -50px;     
+    }
+    .filter {
+         font-size: 12px; 
+    }
+    .filter a{
+         margin-right: 90px;
+         margin-top: 115px;   
+    }
+    .filter h3{
+         margin-right: 80px; 
+         margin-top: 105px; 
+    }
+    hr{
+    	 margin-top: 340px;
+    	 width: 260px;
+    }
+    .number-floor p{
+         margin-top: 360px;  
+    }
+    .floor-button button{
+	     margin-top: 200px;    
+         margin-right: -34px;
+         margin-left: 40px;
+         padding: 6px 17px 6px 17px;   
+    }
+    .hr2 {
+    	 margin-top: 465px;
+    	 width: 260px;
+    }  
+    .price-meter p{
+    	 margin-top: 490px;  
+    }  
+    .footage-button button{
+	     margin-top: 70px;    
+         margin-right: -31px;
+         margin-left: 40px;
+         padding: 6px 17px 6px 17px; 
+    }
+    .apartment-price p{
+	     margin-top: 590px; 
+    }
+    .apart-button button{
+	     margin-top: 45px;    
+         margin-right: -34px;
+         margin-left: 40px;
+         padding: 6px 13px 6px 13px; 
+    }
+    .hr3{
+    	 margin-top: 700px;
+    	 width: 260px;
+    } 
+    .rating p{
+	     margin-top: 725px;
+    }
+    .rating-star button{
+		 margin-top: 75px;    
+         margin-right: -52px;
+         margin-left: 60px;
+         padding: 6px 13px 6px 13px;
+    }
+    .last-rating-star button{
+	     position: relative;
+	     left: 100px;
+    }
+    .content{
+    	  margin-top: 10px;
+    	 width: 375px;
+    	 display: block;
+    }
+    .inner-content iframe{
+    	 width: 375px;
+    	 display: block;
+    	 justify-content: space-around; 
+    }
+    .wrapper{
+    	 width: 200px;
+    }
+ }
+ 
+        
+
+  
+   
+   
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
